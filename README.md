@@ -1,4 +1,4 @@
-#DobsonDev WordPress TinyMCE Example
+# DobsonDev WordPress TinyMCE Example
 
 A simple plugin created to illustrate how to create a TinyMCE plugin that will add custom made buttons to the WordPress editor. The plugin contains nine different button types so that users can see how they all look and function.
 
@@ -24,7 +24,7 @@ Below is the main code for each button for easy reference. It can be added to th
 })();
 ```
 
-###Text Button
+### Text Button
 
 ```js
 // example of a text label button
@@ -37,7 +37,7 @@ editor.addButton( 'dobsondev_tinymce_example_text_button', {
   }
 });
 ```
-###Standard Icon Button
+### Standard Icon Button
 
 ```js
 // example of a standard icon labelled button
@@ -50,7 +50,7 @@ editor.addButton( 'dobsondev_tinymce_example_icon_button', {
 });
 ```
 
-###Dashicons Icon Button
+### Dashicons Icon Button
 
 ```js
 // example of a dashicons icon labelled button
@@ -63,7 +63,7 @@ editor.addButton( 'dobsondev_tinymce_example_dashicons_button', {
 });
 ```
 
-###Custom Icon Button
+### Custom Icon Button
 
 ```js
 // example of a custom (using your own graphic) icon labelled button
@@ -76,7 +76,7 @@ editor.addButton( 'dobsondev_tinymce_example_custom_icon_button', {
 });
 ```
 
-###Custom Icon w/ Text Button
+### Custom Icon w/ Text Button
 
 ```js
 // example of a custom (using your own graphic) icon labelled button
@@ -91,7 +91,7 @@ editor.addButton( 'dobsondev_tinymce_example_custom_icon_text_button', {
 });
 ```
 
-###Dashicons Icon Button with Sub Menu
+### Dashicons Icon Button with Sub Menu
 
 ```js
 // example of a dashicons icon labelled button with a sub menu
@@ -117,7 +117,7 @@ editor.addButton( 'dobsondev_tinymce_example_sub_menu_button', {
 });
 ```
 
-###Dashicons Icon Button with Sub Menu with Icon and Text Label
+### Dashicons Icon Button with Sub Menu with Icon and Text Label
 
 ```js
 // example of a dashicons icon labelled button with a sub menu with
@@ -145,7 +145,7 @@ editor.addButton( 'dobsondev_tinymce_example_sub_menu_icon_button', {
 });
 ```
 
-###Dashicons Icon Button with Sub Sub Menu
+### Dashicons Icon Button with Sub Sub Menu
 
 ```js
 // example of a dashicons icon labelled button with a sub menu and
@@ -198,7 +198,7 @@ editor.addButton( 'dobsondev_tinymce_example_sub_sub_menu_button', {
 });
 ```
 
-###Dashicons Icon Button that produces a Popup
+### Dashicons Icon Button that produces a Popup
 
 ```js
 // example of a dashicons icon labelled button that when pressed results
